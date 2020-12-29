@@ -25,7 +25,6 @@ function Services() {
 const styles = css`
   width: 100%;
   padding: 140px 0;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   background: rgb(248, 245, 242);

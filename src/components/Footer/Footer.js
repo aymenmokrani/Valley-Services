@@ -70,6 +70,7 @@ const styles = css`
     .footerLogo {
       img {
         width: 70%;
+        max-width: 300px;
       }
     }
     .footerBottom {
