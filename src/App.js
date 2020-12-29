@@ -7,6 +7,9 @@ import About from "./components/About/About";
 import Sponsors from "./components/Sponsors/Sponsors";
 import Pricing from "./components/Pricing/Pricing";
 import Testimonial from "./components/Testimonials/Testimonial";
+import Support from "./components/Support/Support";
+import Blog from "./components/Blog/Blog";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
@@ -16,12 +19,12 @@ function App() {
       <About />
       <Sponsors />
       <Pricing />
-
-      {/* TESTIMONIALS */}
       <Testimonial />
-      {/* SUPPORT */}
-      {/* BLOG */}
+      <Support />
+      <Blog />
+
       {/* FOOTER */}
+      <Footer />
     </div>
   );
 }

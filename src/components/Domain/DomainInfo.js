@@ -70,6 +70,34 @@ const styles = css`
       padding: 0 14px;
     }
   }
+  @media (min-width: 901px) and (max-width: 1288ox) {
+  }
+  @media (max-width: 900px) {
+    flex-direction: column;
+    align-items: flex-start;
+    .domainSearch {
+      margin-top: 40px;
+    }
+  }
+  @media (max-width: 600px) {
+    .domainSearch {
+      flex-direction: column;
+      align-items: stretch;
+      input {
+        width: 100%;
+        border-radius: 0;
+        padding: 14px 26px;
+      }
+      .extension {
+        display: none;
+      }
+      button {
+        padding: 14px 26px;
+        margin-top: 10px;
+        border-radius: 0;
+      }
+    }
+  }
 `;
 
 export default DomainInfo;

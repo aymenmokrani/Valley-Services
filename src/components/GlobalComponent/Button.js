@@ -1,5 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
+import { primaryColor } from "../../utils/SchemeColors";
 
 function Button({ btnIcon, btnText }) {
   return (
@@ -14,7 +15,7 @@ const styles = css`
   padding: 14px 24px;
   border: none;
   outline: none;
-  background: #ff7c58;
+  background: ${primaryColor};
   cursor: pointer;
   transition: background 300ms ease-in-out;
   color: #fff;

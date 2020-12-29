@@ -3,6 +3,7 @@ import { css, jsx } from "@emotion/react";
 import Container from "../GlobalComponent/Container";
 import DomainInfo from "./DomainInfo";
 import DomainPrice from "./DomainPrice";
+import DomainBg from "../../img/domainBg.webp";
 
 function Domain() {
   return (
@@ -23,6 +24,7 @@ function Domain() {
 }
 
 const styles = css`
+  background: url("${DomainBg}") no-repeat center/cover;
   width: 100%;
   background-color: black;
   padding: 140px 0;
